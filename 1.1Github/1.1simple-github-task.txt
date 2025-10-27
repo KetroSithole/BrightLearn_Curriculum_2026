@@ -1,0 +1,99 @@
+🧩 Simple GitHub Practice Task
+
+🎯 Goal
+
+Learn how to add, commit, push, and pull files in a GitHub repository
+using basic Git commands.
+
+------------------------------------------------------------------------
+
+🛠️ Prerequisites
+
+-   Git installed on your computer
+-   GitHub account created
+-   A folder created on your computer (example: my-first-repo)
+
+------------------------------------------------------------------------
+
+📋 Steps
+
+1. Initialize Git
+
+Open your folder in the terminal or command prompt:
+
+    cd path/to/my-first-repo
+    git init
+
+2. Create a File
+
+Create a simple text file:
+
+    echo "Hello GitHub!" > hello.txt
+
+Check the status:
+
+    git status
+
+3. Stage the File
+
+Add the file to the staging area:
+
+    git add hello.txt
+
+4. Commit the File
+
+Save your change in Git history:
+
+    git commit -m "Add hello.txt file"
+
+5. Connect to GitHub
+
+Create a new repository on GitHub named my-first-repo.
+
+Then link your local folder to it:
+
+    git remote add origin https://github.com/<your-username>/my-first-repo.git
+
+Check the connection:
+
+    git remote -v
+
+6. Push to GitHub
+
+Upload your local changes to GitHub:
+
+    git push -u origin main
+
+7. Make a Change
+
+Edit the file:
+
+    echo "This is my first Git push and pull practice!" >> hello.txt
+
+Stage and commit the change:
+
+    git add hello.txt
+    git commit -m "Update hello.txt with a new message"
+
+Push the update:
+
+    git push
+
+8. Pull Changes (if edited on GitHub)
+
+If you edit the file directly on GitHub, pull changes to update your
+local folder:
+
+    git pull
+
+------------------------------------------------------------------------
+
+✅ Summary
+
+In this task, you learned how to: - Initialize a Git repository
+- Add and commit files
+- Connect local and remote repositories
+- Push and pull changes
+
+Now you’re ready to collaborate and manage projects confidently on
+GitHub!

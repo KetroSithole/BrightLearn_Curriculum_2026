@@ -1,0 +1,195 @@
+🍳 Project Plan: Recipe Sharing Platform (GitHub Mastery Course)
+
+🧭 Overview
+
+This project is designed for Week 6 of the GitHub Mastery course. You’ll
+create a collaborative Recipe Sharing Platform that demonstrates your
+Git, GitHub, and CI/CD skills. The goal is to simulate a real-world
+open-source workflow using branches, pull requests, issues, GitHub
+Actions, and GitHub Pages.
+
+------------------------------------------------------------------------
+
+🎯 Objectives
+
+-   Practice team collaboration using GitHub workflows
+-   Manage tasks using GitHub Projects and Issues
+-   Implement CI/CD pipelines with GitHub Actions
+-   Host the application using GitHub Pages
+-   Document and present a professional project
+
+------------------------------------------------------------------------
+
+🛠️ Tools & Technologies
+
+-   Frontend: HTML, CSS, JavaScript (or React if preferred)
+-   Version Control: Git + GitHub
+-   Automation: GitHub Actions
+-   Deployment: GitHub Pages
+-   Documentation: Markdown + GitHub Wiki
+
+------------------------------------------------------------------------
+
+🏗️ Repository Structure
+
+    recipe-sharing-platform/
+    │
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    │
+    ├── /recipes/
+    │   ├── desserts.md
+    │   ├── breakfast.md
+    │   └── dinner.md
+    │
+    ├── /images/
+    │   └── recipe-placeholder.jpg
+    │
+    ├── README.md
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── .gitignore
+    └── .github/
+        ├── workflows/
+        │   └── ci.yml
+        ├── ISSUE_TEMPLATE.md
+        └── PULL_REQUEST_TEMPLATE.md
+
+------------------------------------------------------------------------
+
+🌿 Git Workflow Plan
+
+Branching Strategy
+
+-   main — Stable production branch
+-   develop — Integration branch
+-   feature/* — New features (e.g., feature/add-dessert-page)
+-   fix/* — Bug fixes (e.g., fix/image-path-error)
+-   docs/* — Documentation updates
+
+Example Commands
+
+    git checkout -b feature/add-dessert-page
+    git add .
+    git commit -m "Add dessert recipes page"
+    git push origin feature/add-dessert-page
+
+------------------------------------------------------------------------
+
+🤝 Collaboration Plan
+
+1.  Each team member forks the repository.
+2.  Work on separate branches.
+3.  Submit Pull Requests to the main repo.
+4.  Use Issues to track bugs and features.
+5.  Review and merge PRs after approval.
+6.  Maintain project board for progress tracking.
+
+------------------------------------------------------------------------
+
+⚙️ GitHub Actions (CI/CD)
+
+Workflow File: .github/workflows/ci.yml
+
+    name: CI Pipeline
+
+    on: [push, pull_request]
+
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v3
+          - name: Validate HTML
+            run: |
+              npm install -g htmlhint
+              htmlhint "**/*.html"
+          - name: Validate CSS
+            run: |
+              npm install -g stylelint
+              stylelint "**/*.css"
+          - name: Validate JS
+            run: |
+              npm install -g eslint
+              eslint "**/*.js"
+
+Outcome: Every time you push code or create a PR, GitHub automatically
+checks your HTML, CSS, and JS for errors.
+
+------------------------------------------------------------------------
+
+🌐 Deployment
+
+1.  Enable GitHub Pages in repository settings.
+2.  Set the source to the main branch or /docs folder.
+3.  The project will be live at:
+    https://<username>.github.io/recipe-sharing-platform
+
+------------------------------------------------------------------------
+
+🧾 Documentation
+
+-   README.md: Project overview, setup guide, and screenshots
+-   CONTRIBUTING.md: Steps for contributors
+-   Wiki: Extended documentation (API, features, changelog)
+-   Issue Templates: For bug reports and feature requests
+
+------------------------------------------------------------------------
+
+🎨 Features to Include
+
+-   Home page with navigation to recipe categories
+-   Search bar for finding recipes
+-   Recipe detail pages (Markdown or HTML)
+-   Responsive design
+-   Contact form (optional)
+-   “Add Recipe” feature for contributors
+
+------------------------------------------------------------------------
+
+🧩 Example Issue
+
+Title: Add new dessert recipes
+Description: Add 3 dessert recipes to recipes/desserts.md. Include image
+links and preparation steps.
+Assignee: @username
+Labels: enhancement, content
+
+------------------------------------------------------------------------
+
+🚀 Stretch Goals
+
+-   Add JSON data storage for recipes
+-   Implement a dark/light mode toggle
+-   Integrate GitHub Discussions for recipe requests
+-   Add GitHub Action to auto-deploy after merge
+
+------------------------------------------------------------------------
+
+📈 Final Deliverables
+
+-   Working live website (GitHub Pages)
+-   Functional CI/CD pipeline
+-   Complete documentation (README, Wiki, Issues, PRs)
+-   GitHub Project board with tracked progress
+-   Recorded presentation or live demo
+
+------------------------------------------------------------------------
+
+🏁 Evaluation Criteria
+
+  Category         Description                          Weight
+  ---------------- ------------------------------------ --------
+  Code Quality     Clean, well-structured code          25%
+  Collaboration    Effective teamwork & PR management   25%
+  CI/CD Workflow   Working GitHub Actions setup         20%
+  Documentation    Clear, professional docs             15%
+  Presentation     Final demo & explanation             15%
+
+------------------------------------------------------------------------
+
+✅ Final Output:
+A fully collaborative, automated, and hosted Recipe Sharing Platform
+that showcases your mastery of GitHub workflows, teamwork, and CI/CD
+automation.
