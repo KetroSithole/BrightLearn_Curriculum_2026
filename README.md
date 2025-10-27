@@ -1,8 +1,7 @@
 # 🧠 Bright Learn Curriculum 2026
 
-Welcome to the **Bright Learn Curriculum 2026**!  
-This repository contains structured learning paths and hands-on modules designed to help learners build practical skills in **software development** and **data engineering**.
-
+Welcome to the Bright Learn Curriculum 2026!
+This repository contains structured learning paths and hands-on modules designed to help learners build practical skills in data analytics, data science, and data engineering.
 ---
 
 ## 📚 Course Structure
