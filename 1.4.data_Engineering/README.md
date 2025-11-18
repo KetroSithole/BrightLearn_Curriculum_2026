@@ -1,6 +1,6 @@
 # 🎓 Data Engineering 6‑Month Course Guide (University Edition – README)
 
-This README serves as a **complete, structured course guide** for a 6‑month Data Engineering program suitable for **university submission, portfolio use, or GitHub documentation**.
+**complete, structured course guide** for a 6‑month Data Engineering program suitable for **university submission, portfolio use, or GitHub documentation**.
 
 It includes:
 
@@ -378,3 +378,159 @@ Teach scripting, SQL Agent jobs, CI/CD basics, and oversee final project.
 ---
 
 If you want this turned into a **full university syllabus** with lesson outcomes, exams, and marking criteria, say: **“Create the full syllabus.”**
+
+---
+
+# 🎓 **FULL UNIVERSITY SYLLABUS — Data Engineering (6-Month Program)**
+
+This syllabus is designed for academic submission and delivery. It includes module outcomes, weekly topics, assessments, grading structure, teaching methods, and required resources.
+
+---
+
+# 📘 **Module Information**
+
+**Module Name:** Data Engineering Foundations
+**Module Code:** DE-101
+**Duration:** 6 Months (24 Weeks)
+**Credit Value:** 30 Credits
+**Level:** Undergraduate (Year 2 or 3)
+**Delivery Mode:** Hybrid / In-Person
+**Assessment:** Practical Labs, Assignments, Final Capstone Project
+
+---
+
+# 🧠 **Module Description**
+
+This module provides students with foundational and intermediate knowledge of data engineering. Students will learn SQL, ETL pipelines using SSIS, automation, Git/GitHub version control, and data warehouse concepts. The module emphasises hands-on experience through weekly labs and a full-scale industry-style capstone project.
+
+---
+
+# 🎯 **Module Learning Outcomes**
+
+By the end of this module, students will be able to:
+
+1. Write and optimise SQL queries ranging from basic to advanced.
+2. Design ETL pipelines using SSIS with proper data cleansing and error handling.
+3. Apply dimensional modelling concepts (Fact/Dim tables).
+4. Use Git and GitHub for version control and collaborative workflows.
+5. Automate data workflows using scripts and SQL jobs.
+6. Deliver an end-to-end data engineering project using real-world methodology.
+
+---
+
+# 🏫 **Teaching & Learning Strategy**
+
+* **Lectures:** Introduce weekly concepts with demonstrations.
+* **Hands-on Labs:** Weekly practical exercises.
+* **Group Work:** SSIS project work, Git collaboration.
+* **Independent Study:** Reading, practice datasets, research.
+* **Final Project:** Real ETL pipeline with documentation.
+
+---
+
+# 📅 **Weekly Breakdown**
+
+A detailed breakdown is already included above. This syllabus references the week-by-week teaching plan for delivery.
+
+---
+
+# 🧪 **Assessment Structure**
+
+### **1. Weekly Labs (30%)**
+
+* SQL queries
+* SSIS transformations
+* Git exercises
+* Automation tasks
+
+### **2. Assignments (30%)**
+
+* **Assignment 1:** SQL Analysis Report (Week 6)
+* **Assignment 2:** ETL Pipeline Design Using SSIS (Week 14)
+* **Assignment 3:** GitHub Documentation & Version Control (Week 20)
+
+### **3. Final Capstone Project (40%)**
+
+A fully documented Data Engineering pipeline:
+
+* Extract data from multiple sources (CSV, SQL)
+* Transform data (cleansing, standardisation, lookups)
+* Load into warehouse tables (Fact & Dimension)
+* Automate refresh via SQL Agent Job
+* Submit on GitHub with README
+
+Rubric includes:
+
+* Technical accuracy (40%)
+* Documentation (20%)
+* Code quality (20%)
+* Presentation (20%)
+
+---
+
+# 📚 **Recommended Reading & Resources**
+
+### **Books**
+
+* *The Data Warehouse Toolkit* — Ralph Kimball
+* *SQL for Data Analysis* — O’Reilly
+* *Fundamentals of Data Engineering* — Joe Reis & Matt Housley
+
+### **Online Platforms**
+
+* Microsoft Learn (SSIS + SQL)
+* SQLBolt
+* LeetCode (SQL)
+* GitHub Learning Lab
+
+---
+
+# 🖥️ **Software Requirements**
+
+* SQL Server + SSMS
+* SSIS via SQL Server Data Tools
+* Visual Studio / VS Code
+* Git & GitHub
+* PowerShell / Python
+* Optional: Power BI for dashboards
+
+---
+
+# 🏆 **Capstone Project Requirements**
+
+Students must complete:
+
+1. ERD + Dimensional Model (Fact & Dim tables)
+2. SSIS ETL Pipeline (Extract–Transform–Load)
+3. SQL Tables & Optimized Queries
+4. Automation using SQL Jobs
+5. GitHub Repository containing:
+
+   * Code
+   * Screenshots
+   * Documentation (README)
+   * Version history
+
+---
+
+# 🎤 **Final Presentation Guidelines**
+
+Students must deliver:
+
+* 10-minute demonstration of project
+* Technical overview (ERD, ETL steps, optimisation)
+* Challenges & solutions
+* Q&A with lecturer panel
+
+---
+
+# ✔️ **Completion Requirements**
+
+To pass the module, students must:
+
+* Attend at least 70% of classes
+* Submit all assignments
+* Pass the capstone with at least 40%
+* Demonstrate GitHub usage and documentation quality
+
+---
